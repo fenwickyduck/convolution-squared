@@ -6,6 +6,22 @@ encoding their product — using only standard CNN operations.
 
 ---
 
+## Interactive UI
+
+You can launch an interactive UI to enter:
+- polynomial degree
+- coefficients for `P(x)` and `Q(x)`
+- bit-width for coefficient encoding
+
+The UI then computes the network output and lets you inspect each layer matrix
+and key fixed weight matrices.
+
+```bash
+streamlit run app.py
+```
+
+---
+
 ## Table of Contents
 
 1. [The Problem](#1-the-problem)
