@@ -750,3 +750,5 @@ This network is not an approximation. It computes the polynomial product
 The result is verified against `numpy.convolve` for every test case, including
 the extreme case where all coefficients equal `2^20 − 1 = 1,048,575`, producing
 product coefficients as large as `4,398,038,122,500`.
+
+hereby I declare that you can't sue us, all rights reserved etc. etc.
