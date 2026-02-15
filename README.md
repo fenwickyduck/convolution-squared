@@ -1,4 +1,4 @@
-# Convoluted: How Every Layer Works
+# Convolution Squared: How Every Layer Works
 
 A complete, step-by-step explanation of how a hand-designed Convolutional Neural
 Network transforms a binary image encoding two polynomials into the binary image

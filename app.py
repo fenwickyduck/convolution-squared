@@ -111,7 +111,7 @@ def run():
         unsafe_allow_html=True,
     )
 
-    st.title("Convoluted Polynomial Convolution UI")
+    st.title("Convolution Squared")
     st.caption(
         "Enter polynomial degree and coefficients, then inspect every layer matrix."
     )
