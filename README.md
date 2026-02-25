@@ -1,8 +1,13 @@
-# Convolution Squared: How Every Layer Works
+# Convolution Squared
 
-A complete, step-by-step explanation of how a hand-designed Convolutional Neural
-Network transforms a binary image encoding two polynomials into the binary image
-encoding their product — using only standard CNN operations.
+**Convolution Squared** is a program that performs **convolution** of two polynomials using 
+standard **convolutional** neural network operations. It takes a binary image encoding of two polynomials as input and outputs
+a binary image encoding of their product. 
+
+## Disclaimer 
+
+This project was created as a submission for a Hackathon hosted by Oxford Compsoc. 
+The theme of the hackathon was "Convoluted".
 
 ---
 
@@ -750,5 +755,3 @@ This network is not an approximation. It computes the polynomial product
 The result is verified against `numpy.convolve` for every test case, including
 the extreme case where all coefficients equal `2^20 − 1 = 1,048,575`, producing
 product coefficients as large as `4,398,038,122,500`.
-
-hereby I declare that you can't sue us, all rights reserved etc. etc.
